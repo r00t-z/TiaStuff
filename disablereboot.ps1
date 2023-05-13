@@ -17,7 +17,6 @@ while ($true) {
                 $sessionManagerPropertyValue = Get-ItemProperty -Path $sessionManagerKeyPath -Name $propertyName -ErrorAction SilentlyContinue
 
                 if ($sessionManagerPropertyValue) {
-                    Write-Host "No" -ForegroundColor Red
                     Write-Host "You need to reboot or use option 2" -ForegroundColor Red
                 } else {
                     Write-Host "You can Install Siemens Software without reboot" -ForegroundColor Green
