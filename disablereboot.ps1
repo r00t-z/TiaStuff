@@ -23,7 +23,6 @@ while ($true) {
                     Write-Host "You can Install Siemens Software without reboot" -ForegroundColor Green
                 }
             } else {
-                Write-Host "No" -ForegroundColor Red
                 Write-Host "You need to reboot or use option 2" -ForegroundColor Red
             }
         }
